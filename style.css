@@ -1,0 +1,302 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto !important;
+}
+
+/* navbar */
+#navbar {
+    background-color: #1c1c50;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#navbar .nav-link {
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: 0.5s ease;
+}
+
+#navbar .nav-link:hover {
+    color: white;
+    border-radius: 5px;
+}
+
+.dropdown li a {
+    color: white;
+}
+
+#search-btn {
+    color: white;
+    border: 1px solid white;
+}
+
+#search-btn:hover {
+    background-color: #1c1c50;
+}
+
+/* footer */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.arrow {
+    position: fixed;
+    background-color: #1c1c50;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    align-items: center;
+    line-height: 50px;
+}
+
+.footer {
+    background-color: #1c1c50 !important;
+    color: #ffffff !important;
+    padding: 20px 0px;
+}
+
+/* login */
+.login {
+    width: 50%;
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+#btn {
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#btn a {
+    text-decoration: none;
+    color: white;
+}
+
+#login {
+    margin-top: 10px;
+}
+
+#login button {
+    width: 200px;
+    height: 32px;
+    color: white;
+    background-color: #1c1c50;
+    border: none;
+    font-weight: bold;
+}
+
+/* login */
+
+#formFile {
+    width: 93%;
+}
+
+/* SELECT */
+.select-parent {
+    width: 68% !important;
+    border-radius: 5px;
+    color: #ffff;
+    background-color: #000000;
+    margin-top: 20px;
+    font-weight: bold;
+    box-shadow: none;
+    outline: none;
+}
+
+/* Admin */
+.add-item {
+    background-color: #ffffff !important;
+    color: #1c1c50 !important;
+}
+
+
+#add-btn {
+    background-color: #1c1c50 !important;
+    color: #ffffff !important;
+}
+
+/* == Admin Page == */
+#add-btn {
+    font-weight: 600;
+}
+.student-pic{
+    height: 300px;
+}
+
+/* User */
+#user {
+    background-color: #ffff;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50% !important;
+}
+
+
+/* All Errors */
+.error {
+    margin-top: 5px !important;
+    color: #ff0000;
+    border-radius: 5px;
+    display: none;
+}
+
+/* Loader */
+.loader {
+    border: 5px solid #ffffff;
+    border-top: 5px solid #444242;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Loader */
+
+.side1 {
+    background-color: #1c1c50;
+    height: 60vh;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.side1 h3 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    /* margin-top: 200px; */
+    align-items: center;
+    text-align: center;
+}
+
+.side1 p {
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+#btn {
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.side2 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+}
+
+.side2 h3 {
+    margin-top: 0px;
+    color: #1c1c50;
+    font-weight: bold;
+}
+
+.side2 .inp {
+    margin-top: 32px;
+}
+
+.side2 input {
+    width: 500px;
+    margin-top: 20px;
+    height: 36px;
+    align-items: center;
+}
+
+.side2 p {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.side2 .icons i {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.inp {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* Dashboard */
+#search-btn:hover {
+    color: #1c1c50 !important;
+    background-color: #ffffff;
+}
+.attendance-page{
+    color: #ffff !important;
+    background-color: #1c1c50 !important;
+    text-decoration: none;
+}
+
+/* == Admin Page End== */
+
+/* Attendance Page */
+#user-bio{
+    width: 320px;
+    height: auto !important;
+}
+.image{
+    width: 320px !important;
+    height: 130px !important;
+}
+.attendance-search-navbar{
+    color: #1c1c50 !important;
+    background-color: #ffffff;
+}
+
+
+/* Media Query */
+@media screen and (max-width:992px) {
+    #side2 input {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .logout {
+        width: 20px;
+        height: 20px;
+        margin-top: 0.2px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width:330x) {
+    #side2 input {
+        width: 200px;
+    }
+}

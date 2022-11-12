@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+
+    <link rel="shortcut icon" type="image" href="./image/hackathon-images/login/admin.webp">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+
+    <!-- Firebase -->
+    <script src="./firebase/firebase-config.js" type="module"></script>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h3 class="text-light fw-bold">Admin Portel</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    </li>
+                </ul>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar bg-dark attendance-search-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+
+            </a>
+            <form class="d-flex" action="javascript:void(0)" role="search">
+                <input class="form-control me-2 search-value" type="search" placeholder="Enter A Roll Number" aria-label="Search">
+                <button class="btn btn-outline-success search-data" type="submit" onclick="checkData()">Search</button>
+                </select>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <div class="container">
+        <div class="row mt-2 card-data">
+            <!-- Card Data -->
+        </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 col-lg-8 text-center text-md-start my-3 my-md-0">
+                    &copy; Copyright <strong>Fashion</strong>.All Rights Reserved
+                </div>
+                <div class="col-12 col-md-5 col-lg-4 text-center text-md-end mb-3 mb-md-0">
+                    Designed By <a href="#">ALI HUZAIFA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="arrow"><i><img src="./image/up-arrow.png" alt="" width="50px"></i></a>
+
+    <!-- Bootstrap 5 Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script src="javascript/attendance.js" type="module"></script>
+
+</body>
+
+</html>
